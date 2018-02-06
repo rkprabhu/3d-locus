@@ -275,6 +275,7 @@ a {
   -moz-transform:  rotate(-225deg) rotate(225deg);
   -ms-transform:  rotate(-225deg) rotate(225deg);
   -o-transform:  rotate(-225deg) rotate(225deg);
+  cursor: pointer;
 }
 .circle_wrapper a,
 .reverse_circle a {
@@ -1725,10 +1726,52 @@ body {
   opacity: 0;
   display: none;
   transition:all 0.3s linear;
-  transform: translate(0, -65%);
+  transform: translate(0, -75%);
 }
 
 .desc.active {
   opacity: 1;
   display: block;
+}
+
+.content-outer {
+    background: var(--color-bg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 600px;
+    opacity: 0;
+    height: 600px;
+    perspective: 300px;
+    pointer-events: none;
+    overflow: hidden;
+    transition: opacity 600ms;
+}
+
+
+main {
+  height: 600px;
+  overflow: hidden;
+}
+
+.loader{
+  position: absolute;
+}
+
+canvas {
+  transform: translate(0, -18%);
+}
+
+.header, .footer {
+  text-align: center;
+}
+
+.header img, .footer img {
+  width: 1000px;
+}
+
+html {
+  background: #fff;
 }

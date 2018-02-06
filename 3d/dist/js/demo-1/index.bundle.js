@@ -105,7 +105,7 @@
                         if (!e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
                         return !t || "object" != typeof t && "function" != typeof t ? e : t
                     }(this, (t.__proto__ || Object.getPrototypeOf(t)).call(this, e));
-                    i.duration = 6e3, i.rings = 8, i.radius = 0, i.radiusGrowth = 1.5;
+                    i.duration = 3e3, i.rings = 8, i.radius = 0, i.radiusGrowth = 1.5;
                     for (var n = 0; n < i.rings; n++) {
                         for (var r = 0 === n ? 1 : 1 + Math.ceil(6 * n), a = 0; a < r; a++) {
                             var o = a / r * Math.PI * 2,
