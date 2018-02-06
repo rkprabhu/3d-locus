@@ -611,7 +611,7 @@ a {
 a.reverse_circle:before {
     opacity: 0.2;
     content: '';
-    background: url(file:///Users/ramakantprabhutendolkar/Downloads/mesh.svg) center center no-repeat;
+    background: url(mesh.svg) center center no-repeat;
     width: 100%;
     height: 100%;
     left: 0px !important;
