@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ncrlgf');
+  src:  url('fonts/icomoon.eot?ncrlgf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ncrlgf') format('truetype'),
+    url('fonts/icomoon.woff?ncrlgf') format('woff'),
+    url('fonts/icomoon.svg?ncrlgf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cancel-music:before {
+  content: "\e93c";
+}
+.icon-enter-arrow:before {
+  content: "\e93d";
+}
+.icon-Icon-TickNo:before {
+  content: "\e93e";
+  color: #39474f;
+}
+.icon-Icon-TickYes:before {
+  content: "\e93f";
+  color: #39474f;
+}
+.icon-Icon-Mosquito:before {
+  content: "\e91c";
+  color: #39474f;
+}
+.icon-Icon-Pigeon:before {
+  content: "\e922";
+  color: #39474f;
+}
+.icon-Icon-Rodent:before {
+  content: "\e91d";
+  color: #39474f;
+}
+.icon-Icon-SofaSPA:before {
+  content: "\e91e";
+  color: #39474f;
+}
+.icon-Icon-Sparrow:before {
+  content: "\e91f";
+  color: #39474f;
+}
+.icon-Icon-SpecialOffers:before {
+  content: "\e920";
+  color: #39474f;
+}
+.icon-Icon-Termite:before {
+  content: "\e921";
+  color: #39474f;
+}
+.icon-Icon-WoodBorer:before {
+  content: "\e93b";
+  color: #39474f;
+}
+.icon-Icon-Anti-Dengue2:before {
+  content: "\e923";
+  color: #39474f;
+}
+.icon-Icon-BathroomCleaning:before {
+  content: "\e924";
+  color: #39474f;
+}
+.icon-Icon-BedBug:before {
+  content: "\e925";
+  color: #39474f;
+}
+.icon-Icon-CareCare:before {
+  content: "\e926";
+  color: #39474f;
+}
+.icon-Icon-CarpetSPA:before {
+  content: "\e927";
+  color: #39474f;
+}
+.icon-Icon-ChairSPA:before {
+  content: "\e928";
+  color: #39474f;
+}
+.icon-Icon-Cockroach:before {
+  content: "\e929";
+  color: #39474f;
+}
+.icon-Icon-Cockroach+ant:before {
+  content: "\e92a";
+  color: #39474f;
+}
+.icon-Icon-Cockroach+Mosquito .path1:before {
+  content: "\e92b";
+  color: rgb(57, 71, 79);
+}
+.icon-Icon-Cockroach+Mosquito .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(57, 71, 79);
+}
+.icon-Icon-Cockroach+Mosquito .path3:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(57, 71, 79);
+}
+.icon-Icon-Cockroach+Mosquito .path4:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Icon-Cockroach+Mosquito .path5:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Icon-Cockroach+Mosquito .path6:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Icon-Cockroach+Mosquito .path7:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Icon-Cockroach+Mosquito .path8:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Icon-CurtainSteaming:before {
+  content: "\e932";
+  color: #39474f;
+}
+.icon-Icon-DeepCleaning:before {
+  content: "\e933";
+  color: #39474f;
+}
+.icon-Icon-ExpressCleaning:before {
+  content: "\e934";
+  color: #39474f;
+}
+.icon-Icon-FloorCleaning:before {
+  content: "\e935";
+  color: #39474f;
+}
+.icon-Icon-FridgeCleaning:before {
+  content: "\e936";
+  color: #39474f;
+}
+.icon-Icon-IntensiveCleaning:before {
+  content: "\e937";
+  color: #39474f;
+}
+.icon-Icon-KitchenCleaning:before {
+  content: "\e938";
+  color: #39474f;
+}
+.icon-Icon-MattressSteaming:before {
+  content: "\e939";
+  color: #39474f;
+}
+.icon-Icon-Anti-Dengue:before {
+  content: "\e93a";
+  color: #39474f;
+}
+.icon-home-appliance:before {
+  content: "\e91a";
+}
+.icon-chat:before {
+  content: "\e919";
+  color: #39474f;
+}
+.icon-Icon-Phone:before {
+  content: "\e942";
+}
+.icon-Icon-envelop:before {
+  content: "\e945";
+}
+.icon-Icon-AirPurifier:before {
+  content: "\e900";
+  color: #39474f;
+}
+.icon-Icon-BirdControl:before {
+  content: "\e901";
+   color: #39474f;
+}
+.icon-Icon-HomeCleaning:before {
+  content: "\e902";
+   color: #39474f;
+}
+.icon-Icon-PestControl:before {
+  content: "\e903";
+  color: #39474f;
+}
+.icon-Icon-Products:before {
+  content: "\e904";
+  color: #39474f;
+}
+.icon-checked:before {
+  content: "\e905";
+  color: #f05228;
+}
+.icon-Icon-DownArrow:before {
+  content: "\e906";
+  color: #39474f;
+}
+.icon-Icon-Menu:before {
+  content: "\e907";
+  color: #39474f;
+}
+.icon-Icon-Mobile-Cart:before {
+  content: "\e908";
+  color: #39474f;
+}
+.icon-Icon-Mobile-Home:before {
+  content: "\e909";
+  color: #39474f;
+}
+.icon-Icon-Mobile-Menu:before {
+  content: "\e90a";
+  color: #39474f;
+}
+.icon-Icon-Mobile-Profile:before {
+  content: "\e90b";
+  color: #39474f;
+}
+.icon-Icon-Profile:before {
+  content: "\e90c";
+  color: #39474f;
+}
+.icon-Icon-Social-FB:before {
+  content: "\e90d";
+  color: #39474f;
+}
+.icon-Icon-Social-GPlus:before {
+  content: "\e90e";
+  color: #39474f;
+}
+.icon-Icon-Social-LinkedIn:before {
+  content: "\e90f";
+  color: #39474f;
+}
+.icon-Icon-Social-Twitter:before {
+  content: "\e910";
+  color: #39474f;
+}
+.icon-prev_arrow:before {
+  content: "\e911";
+}
+.icon-next_arrow:before {
+  content: "\e912";
+}
+.icon-deep_cleaning:before {
+  content: "\e913";
+}
+.icon-intensive_cleaning:before {
+  content: "\e914";
+}
+.icon-franchisee:before {
+  content: "\e915";
+}
+.icon-services:before {
+  content: "\e916";
+}
+.icon-minicart:before {
+  content: "\e917";
+  color: #39474f;
+}
+.icon-pinterest:before {
+  content: "\e918";
+}
