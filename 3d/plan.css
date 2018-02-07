@@ -100,11 +100,11 @@ body {
   width: 100wh;
   height: 90vh;
   color: #fff;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-  background-size: 400% 400%;
+  /*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+  background-size: 400% 400%;/*
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;*/
 }
 
 @-webkit-keyframes Gradient {
@@ -561,7 +561,7 @@ a {
   
 }
 
-.circle_wrapper.pulse a, .main_cat_name.circle_wrapper.pulse {
+.circle_wrapper.pulse > a, .main_cat_name.circle_wrapper.pulse {
   animation: pulse 1.5s 2;
   background: #00be7a !important;
   color: #fff !important;
@@ -591,6 +591,32 @@ a {
     transtion: all .3s linear;
 }
 
+.i1.cms-planetory-dialer .circle_wrapper > .reverse_circle {
+  border: 2px solid #00be7a;
+}
+
+
+.i2.cms-planetory-dialer .circle_wrapper > .reverse_circle {
+  border: 4px solid #00be7a;
+  background: #00be7a;
+  color: #fff;
+}
+
+.i2.cms-planetory-dialer .circle_wrapper:hover > .reverse_circle {
+    border: 4px solid #3e4f54;
+    background: #3e4f54;
+    color: #fff;
+}
+.i2 .circle_wrapper .icon {
+  color: #fff;
+}
+
+.i2 .circle_wrapper.pulse > a, .i2 .main_cat_name.circle_wrapper.pulse {
+    animation: pulse 1.5s 2;
+    background: #3e4f54 !important;
+    color: #fff !important;
+}
+
 .cms-planetory-dialer .circle_wrapper:hover > .reverse_circle {
   /*border: 4px solid #00be7a;*/
   background: #00be7a;
@@ -609,7 +635,7 @@ a {
 
 
 a.reverse_circle:before {
-    opacity: 0.2;
+    opacity: 0.15;
     content: '';
     background: url(mesh.svg) center center no-repeat;
     width: 100%;
@@ -1236,7 +1262,7 @@ a.reverse_circle:before {
     width: 100%;
     height: 100%;
     /*background: rgba(255, 255, 255, 0.7);*/
-    background: linear-gradient(-45deg, rgba(238, 119, 82, 0.7), rgba(231, 60, 126, 0.7), rgba(35, 166, 213, 0.7), rgba(35, 213, 171, 0.7));
+    background: linear-gradient(-45deg, rgba(238, 119, 82, 0.5), rgba(231, 60, 126, 0.5), rgba(35, 166, 213, 0.5), rgba(35, 213, 171, 0.5));
     left: 0;
     opacity: 0;
     /*background: rgba(248,80,50,0.59);
@@ -1256,7 +1282,7 @@ a.reverse_circle:before {
   .category-pest-control-services .bg_wrapper#home_container:before,
   .catalog-product-view .bg_wrapper#home_container:before
   {
-    background: linear-gradient(-45deg, rgba(101, 163, 148, 0.6), rgba(191, 191, 191, 0.6), rgba(255, 223, 223, 0.6), rgba(191, 236, 253, 0.6));
+    background: linear-gradient(-45deg, rgba(101, 163, 148, 0.7), rgba(191, 191, 191, 0.7), rgba(255, 223, 223, 0.7), rgba(191, 236, 253, 0.7));
     /*background: linear-gradient(-45deg, rgba(238, 119, 82, 0.7), rgba(231, 60, 126, 0.7), rgba(35, 166, 213, 0.7), rgba(35, 213, 171, 0.7));*/
     background-size: 400% 400%;
     opacity: 1;
@@ -1684,11 +1710,11 @@ body {
   z-index: 100;
 }
 
-#canvas {
+/*#canvas {
   position: absolute;
   left: 0;
   top: 0;
-}
+}*/
 
 .bg_slider {
     overflow: hidden;
@@ -1703,13 +1729,14 @@ body {
 .slider {
     width: 100%;
     height: 100%;
-    background-size: 100% 100% !important;
+    background-size: 100% !important;
     position: absolute;
     opacity: 0;
     transform: rotate(-15deg) scale(2.5);
     transition: all 0.3s linear;
     top:0;
     left: 0;
+    background-position: bottom !important;
 }
 
 .slider:nth-child(odd) {
@@ -1727,6 +1754,27 @@ body {
   display: none;
   transition:all 0.3s linear;
   transform: translate(0, -75%);
+}
+
+@media all and (max-width: 412px){
+  .desc {
+      position: absolute;
+      opacity: 0;
+      display: none;
+      transition: all 0.3s linear;
+      transform: translate(-9%, -69%);
+  }
+
+  .main_circle.sizeCir .circle_wrapper {
+      margin-top: -55px;
+      margin-left: -55px;
+      left: 35px !important;
+      top: 35px !important;
+  }
+
+  .content-inner p {
+    margin-bottom: 10px;
+  }
 }
 
 .desc.active {
@@ -1751,10 +1799,10 @@ body {
 }
 
 
-main {
+/*main {
   height: 600px;
   overflow: hidden;
-}
+}*/
 
 .loader{
   position: absolute;
@@ -1769,9 +1817,37 @@ canvas {
 }
 
 .header img, .footer img {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 html {
   background: #fff;
 }
+
+.cms-home .bg_wrapper#home_container:before,
+  .cms-residential-services .bg_wrapper#home_container:before,
+  .planetary-index-index .bg_wrapper#home_container:before,
+  .category-pest-control-services .bg_wrapper#home_container:before,
+  .catalog-product-view .bg_wrapper#home_container:before
+  {
+    background: linear-gradient(-45deg, rgba(101, 163, 148, 0.3), rgba(191, 191, 191, 0.3), rgba(255, 223, 223, 0.3), rgba(191, 236, 253, 0.3));
+    /*background: linear-gradient(-45deg, rgba(238, 119, 82, 0.3), rgba(231, 60, 126, 0.7), rgba(35, 166, 213, 0.7), rgba(35, 213, 171, 0.7));*/
+    background-size: 400% 400%;
+    opacity: 1;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+
+  body {
+    background: url('https://hicare.in/pub/static/frontend/hicare/hicare/en_US/images/custom/bg-image.jpg') no-repeat top left #fff;
+  }
+
+  .demo-1 {
+    --color-bg: none;
+  }
