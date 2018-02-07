@@ -648,6 +648,20 @@ a.reverse_circle:before {
     border-radius: 118%;
 }
 
+.i3 a.reverse_circle:before {
+    opacity: 0.15;
+    content: '';
+    background: none;
+    width: 100%;
+    height: 100%;
+    left: 0px !important;
+    top: 0;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    border-radius: 118%;
+}
+
 .cms-planetory-dialer .circle_wrapper .reverse_circle .collect_content {
   position: relative;
 }
@@ -1743,6 +1757,14 @@ body {
   transform: rotate(15deg) scale(2.5);
 }
 
+.i3 .slider, .i3 .slider:nth-child(odd) {
+  transform: none;
+}
+
+.i3 .slider.active {  
+  opacity: 1;
+}
+
 .slider.active {
   opacity: 1;
   transform: rotate(0) scale(1);
@@ -1774,6 +1796,25 @@ body {
 
   .content-inner p {
     margin-bottom: 10px;
+  }
+
+  .i3 .content-inner p {
+      margin-bottom: 10px;
+      margin: 5px 0;
+  }
+
+  .i3 .desc {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    transition: all 0.3s linear;
+    transform: translate(1%, -69%);
+  }
+
+  .i3 .cat_desc h2 {
+    font-size: 1.5em;
+    /* display: none !important; */
+    margin: 0;
   }
 }
 
