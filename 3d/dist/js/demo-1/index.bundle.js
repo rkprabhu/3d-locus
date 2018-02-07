@@ -201,7 +201,7 @@
                 }, {
                     key: "setupTime",
                     value: function() {
-                        this.timescale = 1, this.clock = new THREE.Clock, this.deltaTimeSeconds = this.clock.getDelta() * this.timescale, this.deltaTimeMilliseconds = 1e3 * this.deltaTimeSeconds, this.deltaTimeNormal = this.deltaTimeMilliseconds / (1e3 / 60), this.elapsedMilliseconds = 0
+                        this.timescale = 1.25, this.clock = new THREE.Clock, this.deltaTimeSeconds = this.clock.getDelta() * this.timescale, this.deltaTimeMilliseconds = 1e3 * this.deltaTimeSeconds, this.deltaTimeNormal = this.deltaTimeMilliseconds / (1e3 / 60), this.elapsedMilliseconds = 0
                     }
                 }, {
                     key: "setupScene",
@@ -338,7 +338,7 @@
                         setTimeout(function(){ 
 
                             $elements.css({
-                                'transform': 'rotate(-225deg) translate(218px) rotate(225deg)'
+                                'transform': 'rotate(-225deg) translate('+radius+') rotate(225deg)'
                             }) 
                             // $(".main_circle").removeClass('sizeCir');
                            
